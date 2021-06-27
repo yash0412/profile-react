@@ -17,8 +17,8 @@ jobs:
       - name: Deploy to pages 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: master # The branch the action should deploy to.
-          FOLDER: build # The folder the action should deploy.
-          REPOSITORY_NAME: yash0412/yash0412.github.io
-          TARGET_FOLDER: ''
+          token: ${{ secrets.ACCESS_TOKEN }}
+          branch: master # The branch the action should deploy to.
+          folder: build # The folder the action should deploy.
+          repository-name: yash0412/yash0412.github.io
+          target-folder: ''
