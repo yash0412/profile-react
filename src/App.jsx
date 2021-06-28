@@ -1,3 +1,4 @@
+import { Typography } from '@material-ui/core';
 import React from 'react';
 import './App.css';
 import Header from './components/header/header';
@@ -6,7 +7,9 @@ function App() {
   return (
     <div>
       <Header />
-      <h2 className="text-center">More content to appear soon!</h2>
+      <Typography variant="h6" className="text-center">
+        More content to appear soon!
+      </Typography>
     </div>
   );
 }
