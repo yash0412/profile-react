@@ -4,6 +4,7 @@ import Typography from '@material-ui/core/Typography';
 import React from 'react';
 import './App.css';
 import Header from './components/header/header';
+import Resume from './components/resume/resume';
 
 const theme = createMuiTheme({
   palette: {
@@ -44,6 +45,7 @@ function App() {
     <MuiThemeProvider theme={theme}>
       <CssBaseline />
       <Header />
+      <Resume />
       <Typography variant="h6" className="text-center">
         More content to appear soon!
       </Typography>
