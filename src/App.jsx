@@ -46,9 +46,6 @@ function App() {
       <CssBaseline />
       <Header />
       <Resume />
-      <Typography variant="h6" className="text-center">
-        More content to appear soon!
-      </Typography>
     </MuiThemeProvider>
   );
 }
