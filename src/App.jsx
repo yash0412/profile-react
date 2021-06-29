@@ -1,6 +1,5 @@
 import CssBaseline from '@material-ui/core/CssBaseline';
 import { createMuiTheme, MuiThemeProvider } from '@material-ui/core/styles';
-import Typography from '@material-ui/core/Typography';
 import React from 'react';
 import './App.css';
 import Header from './components/header/header';
