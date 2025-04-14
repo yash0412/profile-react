@@ -31,7 +31,7 @@ export default function Header() {
         <Tooltip title="LinkedIn Profile" aria-label="LinkedIn Profile">
           <IconButton
             color="inherit"
-            href="https://www.linkedin.com/in/yash-agarwal-a6a92a133/"
+            href="https://www.linkedin.com/in/agarwal-yash9274"
             target="_blank"
             aria-label="linkedin link"
           >
